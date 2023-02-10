@@ -1,5 +1,12 @@
+import { Hero, BrowseMenu } from '@/components/home';
+
 const Home = () => {
-  return <h1 className="text-3xl font-bold  underline">Home Page</h1>;
+  return (
+    <>
+      <Hero />
+      <BrowseMenu />
+    </>
+  );
 };
 
 export default Home;
