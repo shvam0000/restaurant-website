@@ -32,7 +32,7 @@ const cardData = [
 
 const BrowseMenu = () => {
   return (
-    <div className="my-10 h-screen">
+    <div className="my-10 ">
       <div>
         <h1 className="font-bold text-2xl flex justify-center">
           Order from your favourite app today!
