@@ -13,6 +13,11 @@ module.exports = {
       fontFamily: {
         primary: ['Montserrat', 'sans-serif'],
       },
+      colors: {
+        'primary-orange': '#FF7629',
+        'primary-white': '#FFFFFF',
+        'primary-black': '#000000',
+      },
     },
   },
   plugins: [],
