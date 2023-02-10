@@ -1,5 +1,4 @@
-import { Hero, BrowseMenu, AboutUs } from '@/components/home';
-import BurderAd from '@/components/home/burger-ad';
+import { Hero, BrowseMenu, AboutUs, BurgerAd, Social } from '@/components/home';
 
 const Home = () => {
   return (
@@ -7,7 +6,9 @@ const Home = () => {
       <Hero />
       <BrowseMenu />
       <AboutUs />
-      <BurderAd />
+      {/* //! TODO: Design fix needed */}
+      {/* <BurgerAd /> */}
+      <Social />
     </>
   );
 };
