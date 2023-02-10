@@ -64,7 +64,7 @@ export default function NavBar() {
               </li>
             </ul>
 
-            <div className="mt-3 space-y-2 lg:hidden md:inline-block">
+            <div className="mt-3 space-y-2 lg:hidden sm:inline-block">
               <Link href="/api/auth/login">
                 <Button type="primary">
                   <span>Order online</span>
@@ -73,7 +73,7 @@ export default function NavBar() {
             </div>
           </div>
         </div>
-        <div className="hidden space-x-2 md:flex ">
+        <div className="hidden space-x-2 sm:flex ">
           <Link href="/api/auth/login">
             <Button type="primary">
               <span>Order online</span>

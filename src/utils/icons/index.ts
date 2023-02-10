@@ -1,1 +1,9 @@
 export { default as ResLogo } from './res-logo';
+export { default as Doordash } from './doordash';
+export { default as Grubhub } from './grubhub';
+export { default as Postmates } from './postmates';
+export { default as Rappi } from './rappi';
+export { default as MenuCard1 } from './menucard1';
+export { default as MenuCard2 } from './menucard2';
+export { default as MenuCard3 } from './menucard3';
+export { default as MenuCard4 } from './menucard4';
