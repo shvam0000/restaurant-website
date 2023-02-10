@@ -6,7 +6,7 @@ const Button: React.FC<ButtonProps> = ({ type, handleClick, children }) => {
       onClick={handleClick}
       className={`text-md px-4 py-2 font-medium rounded-full w-fit cursor-pointer ${
         type === 'primary'
-          ? 'bg-primary-orange text-gray-100'
+          ? 'bg-primary-orange text-gray-100 border border-white'
           : 'bg-white border border-gray-300 text-black'
       }`}>
       {children}

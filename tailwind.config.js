@@ -18,6 +18,9 @@ module.exports = {
         'primary-white': '#FFFFFF',
         'primary-black': '#000000',
       },
+      backgroundImage: {
+        'big-burger': "url('~/src/utils/images/bigburger.jpeg')",
+      },
     },
   },
   plugins: [],
