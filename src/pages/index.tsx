@@ -1,4 +1,11 @@
-import { Hero, BrowseMenu, AboutUs, BurgerAd, Social } from '@/components/home';
+import {
+  Hero,
+  BrowseMenu,
+  AboutUs,
+  BurgerAd,
+  Social,
+  Footer,
+} from '@/components/home';
 
 const Home = () => {
   return (
@@ -9,6 +16,7 @@ const Home = () => {
       {/* //! TODO: Design fix needed */}
       {/* <BurgerAd /> */}
       <Social />
+      <Footer />
     </>
   );
 };

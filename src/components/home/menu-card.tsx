@@ -1,5 +1,4 @@
 import { MenuCardProps } from '@/utils/props/props';
-import React from 'react';
 
 const MenuCard: React.FC<MenuCardProps> = ({ logo, title, description }) => {
   return (

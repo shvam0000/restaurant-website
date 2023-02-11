@@ -1,5 +1,3 @@
-import React from 'react';
-
 const MenuCard4 = () => {
   return (
     <svg

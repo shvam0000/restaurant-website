@@ -1,4 +1,3 @@
-import React from 'react';
 import MenuCard from './menu-card';
 import { MenuCard1, MenuCard2, MenuCard3, MenuCard4 } from '@/utils/icons';
 import { Button } from '../shared';

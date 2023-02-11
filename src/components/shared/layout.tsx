@@ -1,4 +1,3 @@
-import React from 'react';
 import { LayoutProps } from '@/utils/props/props';
 import NavBar from './navbar';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '../shared';
 import BigBurger from '../../utils/images/bigburger.jpeg';
 import Image from 'next/image';

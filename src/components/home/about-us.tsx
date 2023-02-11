@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import React from 'react';
+
 import Fries from '../../utils/images/fries.jpeg';
 import { Button } from '../shared';
 
