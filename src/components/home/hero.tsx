@@ -12,7 +12,7 @@ const Hero = () => {
             ear burgers in LA.
           </h1>
 
-          <p className="text-xl mt-8 pr-5 text-gray-500">
+          <p className="text-xl mt-8 pr-28 text-gray-500">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam
             maiores beatae aut nemo cupiditate non quam pariatur voluptatum ex
             delectus?
@@ -37,8 +37,8 @@ const Hero = () => {
               className="rounded-xl absolute top-1/2 left-1/2 transform -translate-x-full -translate-y-1/2"
               src={Burger}
               alt="Burger"
-              width={350}
-              height={350}
+              width={500}
+              height={500}
             />
           </figure>
         </div>

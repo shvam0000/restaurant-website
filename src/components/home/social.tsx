@@ -25,14 +25,14 @@ const Social = () => {
         <figure className="w-1/3 px-4">
           <Image className="rounded-xl" src={Social2} alt="social2" />
         </figure>
-        <div className="w-1/3 px-4 grid grid-cols-2">
+        <div className="w-1/3 px-4 grid grid-cols-2 gap-14 items-center">
           <figure>
             <Image
               className="rounded-xl"
               src={Social3}
               alt="social3"
-              width={150}
-              height={150}
+              width={220}
+              height={220}
             />
           </figure>
           <figure>
@@ -40,8 +40,8 @@ const Social = () => {
               className="rounded-xl"
               src={Social4}
               alt="social4"
-              width={150}
-              height={150}
+              width={220}
+              height={220}
             />
           </figure>
           <figure>
@@ -49,8 +49,8 @@ const Social = () => {
               className="rounded-xl"
               src={Social5}
               alt="social5"
-              width={150}
-              height={150}
+              width={220}
+              height={220}
             />
           </figure>
           <figure>
@@ -58,8 +58,8 @@ const Social = () => {
               className="rounded-xl"
               src={Social6}
               alt="social6"
-              width={150}
-              height={150}
+              width={220}
+              height={220}
             />
           </figure>
         </div>

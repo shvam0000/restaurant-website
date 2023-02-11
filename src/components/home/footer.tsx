@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900">
+    <footer className=" bg-white sm:p-6 d px-20">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
           <div className="flex items-center">
@@ -12,10 +12,10 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">
               Resources
             </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
+            <ul className="text-gray-600 ">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
                   Restaurante X
@@ -29,10 +29,10 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">
               Follow us
             </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
+            <ul className="text-gray-600 ">
               <li className="mb-4">
                 <a href="#" className="hover:underline ">
                   Instagram
@@ -46,10 +46,10 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">
               Legal
             </h2>
-            <ul className="text-gray-600 dark:text-gray-400">
+            <ul className="text-gray-600 ">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
                   Privacy Policy
